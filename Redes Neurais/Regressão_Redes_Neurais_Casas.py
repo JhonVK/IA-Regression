@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 from sklearn.neural_network import MLPRegressor
 
-base_house= pd.read_csv(r'C:\Users\joaov\OneDrive\Área de Trabalho\I.A-Classificação\CSV\house_prices.csv')
+base_house= pd.read_csv(r'C:\Users\joaov\Desktop\OneDrive\CSV\house_prices.csv')
 
 
 x=base_house.iloc[:, 3:19].values

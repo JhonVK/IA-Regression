@@ -8,7 +8,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 
 
-base_saude2= pd.read_csv(r'C:\Users\joaov\OneDrive\Área de Trabalho\I.A-Classificação\CSV\plano_saude2.csv')
+base_saude2= pd.read_csv(r'C:\Users\joaov\Desktop\OneDrive\CSV\plano_saude2.csv')
 
 x=base_saude2.iloc[:, 0:1].values
 y=base_saude2.iloc[:, 1].values

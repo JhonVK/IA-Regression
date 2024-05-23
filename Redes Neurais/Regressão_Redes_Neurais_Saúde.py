@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-base_saude2= pd.read_csv(r'C:\Users\joaov\OneDrive\Área de Trabalho\I.A-Classificação\CSV\plano_saude2.csv')
+base_saude2= pd.read_csv(r'C:\Users\joaov\Desktop\OneDrive\CSV\plano_saude2.csv')
 
 
 x=base_saude2.iloc[:, 0:1].values
@@ -31,6 +31,7 @@ print(score)
 grafico = px.scatter(x = X_plano_saude2_scaled.ravel(), y = y_plano_saude2_scaled.ravel())
 grafico.add_scatter(x = X_plano_saude2_scaled.ravel(), y = regressor_rn_saude.predict(X_plano_saude2_scaled), name = 'Regressão')
 grafico.show()
+plt.show()
 
 novo = [[40]]
 novo = scaler_x.transform(novo)
