@@ -8,7 +8,7 @@ import numpy as np
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 
-base_saude2= pd.read_csv(r'C:\Users\joaov\OneDrive\Área de Trabalho\I.A-Classificação\CSV\plano_saude2.csv')
+base_saude2= pd.read_csv(r'C:\Users\joaov\Desktop\OneDrive\IA-Classification\CSV\plano_saude2.csv')
 
 x_saude=base_saude2.iloc[:, 0:1].values
 y_saude=base_saude2.iloc[:, 1].values
